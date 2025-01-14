@@ -1,0 +1,10 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "expo-truemetrics-sdk": ["../src/index"],
+      "expo-truemetrics-sdk/*": ["../src/*"]
+    }
+  }
+}

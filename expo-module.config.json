@@ -1,0 +1,17 @@
+{
+  "platforms": [
+    "apple",
+    "android",
+    "web"
+  ],
+  "apple": {
+    "modules": [
+      "ExpoTruemetricsSdkModule"
+    ]
+  },
+  "android": {
+    "modules": [
+      "expo.modules.truemetricssdk.ExpoTruemetricsSdkModule"
+    ]
+  }
+}
